@@ -35,8 +35,8 @@ whos
 %% variable names
 
 % illegal!
-4asdf = 4;
-#asdf = 4; % this one's OK in Octave because # can also be used to indicate comments
+%4asdf = 4;
+%asdf = 4; % this one's OK in Octave because # can also be used to indicate comments
 
 % legal and useful:
 data2lookAt = 8; % number in the middle of a variable
@@ -241,3 +241,6 @@ end
 % Go to mikexcohen.com, download the material for the book 
 % "Analyzing Neural Time Series Data," and go through the script chapter04a.m
 
+mat7 = nan(30,4);
+mat7(31,10) = 7;
+mat7
